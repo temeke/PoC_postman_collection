@@ -1,0 +1,34 @@
+_id: spc_12f08aa79bc44355a43936ba3237419a
+type: ApiSpec
+parentId: wrk_a9e4e4c4e8b14a9fb6bd68976b8a4a2a
+modified: 1640615516410
+created: 1640613945266
+fileName: my-spec.yaml
+contents: |-
+  #Specify that your document is the OpenAPI 3 format
+  openapi: 3.0.0
+
+  # Define high-level metadata for the API
+  info:
+    version: 1.0.0
+    title: Open Library API
+    description: Open Library has a RESTful API
+   
+  # Specify the base URL the API can be accessed from
+  servers:
+    - url: http://openlibrary.org
+  paths:
+    /recentchanges.json:
+      get:
+        summary: Recent Changes
+       
+        # Add parameter to limit the number of results
+        parameters:
+          - name: limit
+            in: query
+            description: Limit number of results
+            required: true
+            schema:
+              type: integer
+              example: 1
+contentType: yaml

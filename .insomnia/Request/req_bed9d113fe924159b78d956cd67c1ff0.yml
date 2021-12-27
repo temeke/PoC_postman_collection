@@ -1,0 +1,76 @@
+_id: req_bed9d113fe924159b78d956cd67c1ff0
+type: Request
+parentId: fld_e51612bf056347a6b9d28ddc13a45f02
+modified: 1640615549584
+created: 1640615547547
+url: https://www.google.com
+name: test3
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authority
+    value: www.google.com
+    id: pair_22d9125e0268477893590a5c7aaa2391
+  - name: pragma
+    value: no-cache
+    id: pair_490cfed56f9d48348e9e89bdb02e3655
+  - name: cache-control
+    value: no-cache
+    id: pair_f69d4ec39ce3458ea0736b9e816d600d
+  - name: sec-ch-ua
+    value: '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"'
+    id: pair_81a624dea09644f2b962d960be14c71f
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_b4df8f9d4ae143d98b0b282c3fc1c178
+  - name: sec-ch-ua-platform
+    value: '"macOS"'
+    id: pair_bc3304b87def443f8b4b938a6cdd6afe
+  - name: upgrade-insecure-requests
+    value: "1"
+    id: pair_2292f42627a847d3b5df504535bb2207
+  - name: user-agent
+    value: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+    id: pair_bb7044f8940249a187b4e24327e38c9b
+  - name: accept
+    value: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    id: pair_1570aef3c0154019ae0fa3f4a742a1e5
+  - name: sec-ch-ua-full-version
+    value: '"96.0.4664.110"'
+    id: pair_f7c7c83ced2a4431a7717df674e6e9c8
+  - name: sec-ch-ua-arch
+    value: '"x86"'
+    id: pair_fde883fa243c48c5b60672fddeb290ef
+  - name: sec-ch-ua-platform-version
+    value: '"11.6.0"'
+    id: pair_70da1341d4f449b987c17f0e61277782
+  - name: sec-ch-ua-model
+    value: '""'
+    id: pair_37e14b8275474213ab1e2f353e391874
+  - name: sec-fetch-site
+    value: none
+    id: pair_f849fa6b839243e3b93fa53161169e34
+  - name: sec-fetch-mode
+    value: navigate
+    id: pair_b5c835c2eb1b421f9997d2b16773faa0
+  - name: sec-fetch-user
+    value: ?1
+    id: pair_0f16801ec5b44f5499e834bf9a3d8489
+  - name: sec-fetch-dest
+    value: document
+    id: pair_f2b80ad3c9b34f21b4764306317c7e70
+  - name: accept-language
+    value: en-US,en;q=0.9
+    id: pair_335fdf998107444bb54d998bcd93f1a6
+authentication: {}
+metaSortKey: -1640615235402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
